@@ -1,0 +1,34 @@
+.menu_item {
+  width: 100%;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_item-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu_item-sub {
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+.menu_item-name {
+  flex: 1;
+}
+
+.menu_item-dash {
+  width: 90px;
+  height: 1px;
+  background: var(--color-golden);
+  margin: 0 1rem;
+}
+
+.menu_item-price {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
